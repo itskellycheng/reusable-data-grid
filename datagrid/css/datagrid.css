@@ -1,0 +1,49 @@
+caption a:hover{
+	cursor: pointer;
+}
+
+.disabled {
+	color: gray;
+}
+
+caption a.disabled:hover{
+	cursor: auto;
+}
+
+table, th, tr, td {
+	border-collapse: collapse;
+	border-style: solid;
+    border-width: 1px;
+    border-color: rgb(184,204,228);
+    padding: 0.5em;
+}
+
+th {
+	background: -webkit-linear-gradient(rgb(100,100,100), rgb(0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(100,100,100), rgb(0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(100,100,100), rgb(0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(100,100,100), rgb(0,0,0)); /* Standard syntax (must be last) */
+    color: rgb(255,255,255);
+    text-align: left;
+}
+
+th:hover {
+	color: rgb(0,0,255);
+	cursor: pointer;
+}
+
+caption {
+	text-align: right;
+}
+
+tr:nth-child(odd) {
+	background-color: rgb(197,217,241);
+	-webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+	transition: background-color 1s;
+}
+
+tr:nth-child(even) {
+	background-color: rgb(255,255,255);
+	-webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+	transition: background-color 1s;
+}

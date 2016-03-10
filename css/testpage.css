@@ -1,0 +1,22 @@
+body {
+	font: 14px verdana, serif;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 42px;
+	margin: 20px auto;
+	width: 500px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+section div {
+	margin: 20px auto;
+}
